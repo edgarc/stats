@@ -1,6 +1,6 @@
 = fmf
 
-Description goes here.
+Fmf client
 
 == Contributing to fmf
  

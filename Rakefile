@@ -17,8 +17,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "fmf"
   gem.homepage = "http://github.com/calderas/fmf"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{FMF gem}
+  gem.description = %Q{FMF gem}
   gem.email = "calderas@gmail.com"
   gem.authors = ["calderas"]
   # dependencies defined in Gemfile
