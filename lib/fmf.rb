@@ -1,4 +1,6 @@
-require 'fmf/client'
+$LOAD_PATH.unshift(File.dirname(__FILE__) + '/fmf')
+
+require 'client'
 
 module FMF
   
