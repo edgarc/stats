@@ -9,6 +9,8 @@ rescue Bundler::BundlerError => e
   $stderr.puts "Run `bundle install` to install missing gems"
   exit e.status_code
 end
+
+require 'rake/dsl_definition'
 require 'rake'
 
 require 'jeweler'
@@ -42,7 +44,7 @@ end
 
 task :default => :test
 
-require 'rake/rdoctask'
+require 'rake/task'
 Rake::RDocTask.new do |rdoc|
   version = File.exist?('VERSION') ? File.read('VERSION') : ""
 
